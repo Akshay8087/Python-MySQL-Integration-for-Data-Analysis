@@ -51,3 +51,12 @@ pip install pymysql pandas numpy matplotlib seaborn plotly
 ## 💡 Usage Walkthrough
 
 Step 1: Import Libraries
+```python
+import pymysql
+import pandas as pd
+import numpy as np
+
+# Optional: Display all columns in the DataFrame
+pd.set_option("display.max_columns", None)
+```
+
