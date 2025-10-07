@@ -74,4 +74,20 @@ dbconn = pymysql.connect(
 print("Database connection successful!")
 
 ```
+## Step 3: Query Data into a DataFrame
+```python 
+# SQL query to select all data
+sql_query = "SELECT * FROM breast_cancer"
 
+# Load into pandas DataFrame
+df = pd.read_sql_query(sql_query, dbconn)
+
+# Close connection
+dbconn.close()
+
+print("Data loaded into DataFrame successfully.")
+df.head()
+```
+
+Step 4: Explore the Data
+✅ Check the Dimensions
