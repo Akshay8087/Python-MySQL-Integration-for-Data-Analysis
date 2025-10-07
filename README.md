@@ -46,3 +46,8 @@ Clone this repository and install the required Python libraries using pip:
 
 ```bash
 pip install pymysql pandas numpy matplotlib seaborn plotly
+```
+
+## 💡 Usage Walkthrough
+
+Step 1: Import Libraries
