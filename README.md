@@ -89,5 +89,10 @@ print("Data loaded into DataFrame successfully.")
 df.head()
 ```
 
-Step 4: Explore the Data
+## Step 4: Explore the Data
 ✅ Check the Dimensions
+
+
+```python
+print(f"The dataset has {df.shape[0]} rows and {df.shape[1]} columns.")
+```
