@@ -59,4 +59,19 @@ import numpy as np
 # Optional: Display all columns in the DataFrame
 pd.set_option("display.max_columns", None)
 ```
+## Step 2: Connect to the Database
+
+🔐 Security Tip: Use environment variables or secrets management to handle credentials in production.
+
+```python
+dbconn = pymysql.connect(
+    host="localhost",
+    user="root",
+    password="<YourDatabasePassword>",  # Replace with your actual password
+    database="AKShay"
+)
+
+print("Database connection successful!")
+
+```
 
